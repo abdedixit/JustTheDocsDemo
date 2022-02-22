@@ -120,11 +120,20 @@ end
 
 ### Small image
 
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+<!-- ![](../../assets/images/Apple.png) -->
+<img src="../../assets/images/Apple.png" width="100" height="100">
 
 ### Large image
+<img src="../../assets/images/Apple.png" width="200" height="200">
+<!-- ![](https://guides.github.com/activities/hello-world/branching.png) -->
 
-![](https://guides.github.com/activities/hello-world/branching.png)
+### Image with captions
+<figure>
+    <img src="../../assets/images/Apple.png"
+         alt="Apple logo"
+         width="100" height="100">
+    <figcaption>Logo of the <i>Apple</i> company</figcaption>
+</figure>
 
 
 ### Definition lists can be used with HTML syntax.
